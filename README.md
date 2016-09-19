@@ -1,3 +1,9 @@
+A fork of the Bootstrap theme with extensive (aiming to be comprehensive...) RTL fixes over Bas Brands' version.
+
+Maintainer: Netanel Neuman & [OpenApp Ltd.](http://openapp.co.il) (<nzn@openapp.co.il>)
+
+This is the text from Bas Brands' original ReadMe:
+
 About this theme
 ================
 
