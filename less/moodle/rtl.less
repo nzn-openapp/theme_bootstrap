@@ -2109,6 +2109,17 @@ margin-right: 0.1em;
 .course-content ul.topics li.section .summary{
 margin-right: 25px;
 }
+&.editing {
+    .course-content ul li.section.main {
+        .left {
+            float: right;
+        }
+        .right {
+            float: left;
+        }
+    }
+}
+
 .path-course-view .completionprogress{
 margin-left: auto;
 margin-right: 25px;
@@ -3179,65 +3190,10 @@ margin-right: 0;
 margin-left: auto;
 margin-right: 10px;
 }
-body.zoomin #region-main,
-body.zoomin #region-bs-main-and-pre{
+body&.zoomin #region-main,
+body&.zoomin #region-bs-main-and-pre{
 right: 0 !important;
 left: auto;
-}
-
-@media screen and (min-width: 768px) and (min-width: 768px){
-.dir-ltr.editing.used-region-side-post.used-region-side-pre #region-main{
-float: right;
-width: 50%;
-}
-}
-@media screen and (min-width: 768px) and (min-width: 1200px){
-.dir-ltr.editing.used-region-side-post.used-region-side-pre #region-main{
-float: right;
-width: 66.66666667%;
-}
-}
-@media screen and (min-width: 768px) and (min-width: 1200px){
-.dir-ltr.editing.used-region-side-post.used-region-side-pre #region-main{
-right: 16.66666667%;
-left: auto;
-}
-}
-@media screen and (min-width: 768px) and (min-width: 768px){
-.dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-post{
-float: right;
-width: 25%;
-}
-}
-@media screen and (min-width: 768px) and (min-width: 1200px){
-.dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-post{
-float: right;
-width: 16.66666667%;
-}
-}
-@media screen and (min-width: 768px) and (min-width: 768px){
-.dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-pre{
-float: right;
-width: 25%;
-}
-}
-@media screen and (min-width: 768px) and (min-width: 1200px){
-.dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-pre{
-float: right;
-width: 16.66666667%;
-}
-}
-@media screen and (min-width: 768px) and (min-width: 768px){
-.dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-pre{
-left: 50%;
-right: auto;
-}
-}
-@media screen and (min-width: 768px) and (min-width: 1200px){
-.dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-pre{
-left: 66.66666667%;
-right: auto;
-}
 }
 @media screen and (min-width: 768px) and (min-width: 768px){
 &.editing.used-region-side-post.used-region-side-pre #region-main{

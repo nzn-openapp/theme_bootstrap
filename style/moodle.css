@@ -15255,7 +15255,7 @@ input[type="checkbox"] {
   left: -1.5em;
   cursor: pointer;
 }
-.form-autocomplete-downarrow.dir-rtl {
+.dir-rtl .form-autocomplete-downarrow {
   right: -1.5em;
   left: inherit;
 }
@@ -19336,6 +19336,7 @@ div.feedback_item_commands_left {
   right: 0;
   left: auto;
   float: right;
+  text-align: right;
 }
 .dir-rtl .yui3-menu .dropdown-menu {
   left: 0;
@@ -20657,6 +20658,12 @@ div.feedback_item_commands_left {
 .dir-rtl .course-content ul.topics li.section .summary {
   margin-right: 25px;
 }
+.dir-rtl.editing .course-content ul li.section.main .left {
+  float: right;
+}
+.dir-rtl.editing .course-content ul li.section.main .right {
+  float: left;
+}
 .dir-rtl .path-course-view .completionprogress {
   margin-left: auto;
   margin-right: 25px;
@@ -21727,64 +21734,10 @@ div.feedback_item_commands_left {
   margin-left: auto;
   margin-right: 10px;
 }
-.dir-rtl body.zoomin #region-main,
-.dir-rtl body.zoomin #region-bs-main-and-pre {
+body.dir-rtl.zoomin #region-main,
+body.dir-rtl.zoomin #region-bs-main-and-pre {
   right: 0 !important;
   left: auto;
-}
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  .dir-rtl .dir-ltr.editing.used-region-side-post.used-region-side-pre #region-main {
-    float: right;
-    width: 50%;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  .dir-rtl .dir-ltr.editing.used-region-side-post.used-region-side-pre #region-main {
-    float: right;
-    width: 66.66666667%;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  .dir-rtl .dir-ltr.editing.used-region-side-post.used-region-side-pre #region-main {
-    right: 16.66666667%;
-    left: auto;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  .dir-rtl .dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-post {
-    float: right;
-    width: 25%;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  .dir-rtl .dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-post {
-    float: right;
-    width: 16.66666667%;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  .dir-rtl .dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-pre {
-    float: right;
-    width: 25%;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  .dir-rtl .dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-pre {
-    float: right;
-    width: 16.66666667%;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  .dir-rtl .dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-pre {
-    left: 50%;
-    right: auto;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  .dir-rtl .dir-ltr.editing.used-region-side-post.used-region-side-pre #block-region-side-pre {
-    left: 66.66666667%;
-    right: auto;
-  }
 }
 @media screen and (min-width: 768px) and (min-width: 768px) {
   .dir-rtl.editing.used-region-side-post.used-region-side-pre #region-main {
