@@ -13366,6 +13366,12 @@ body.path-question-type .mform fieldset.hidden {
   position: absolute;
   top: -7px;
 }
+.dir-ltr.jsenabled .usermenu .moodle-actionmenu.show .menu:before {
+  right: 9px;
+}
+.dir-rtl.jsenabled .usermenu .moodle-actionmenu.show .menu:before {
+  left: 9px;
+}
 .jsenabled .usermenu .moodle-actionmenu.show .menu:after {
   content: '';
   display: inline-block;
@@ -13374,6 +13380,12 @@ body.path-question-type .mform fieldset.hidden {
   border-bottom: 6px solid #ffffff;
   position: absolute;
   top: -6px;
+}
+.dir-ltr.jsenabled .usermenu .moodle-actionmenu.show .menu:after {
+  right: 9px;
+}
+.dir-rtl.jsenabled .usermenu .moodle-actionmenu.show .menu:after {
+  left: 9px;
 }
 .jsenabled .usermenu .moodle-actionmenu.show .menu a {
   border-radius: 0;
@@ -20904,8 +20916,11 @@ div.feedback_item_commands_left {
   margin-left: 4px;
 }
 .dir-rtl .fp-toolbar img {
-  margin-right: auto;
-  margin-left: 5px;
+  /* No changes so as not to override:
+.fp-btn-add img, .fp-btn-download img, .fp-btn-mkdir img, .fp-tb-help img, .fp-tb-manage img, .fp-tb-logout img, .fp-tb-refresh img {
+    margin: 7px;
+}
+*/
 }
 .dir-rtl .fp-toolbar .fp-tb-search input {
   padding: 2px 27px 1px 6px;
